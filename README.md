@@ -151,6 +151,14 @@ http://localhost:3000
 ```
 
 ---
+## 🧪 Test with curl
+
+```bash
+curl -X POST https://your-app.onrender.com/api/explain-error \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: your-api-key" \
+  -d '{"error": "TypeError: Cannot read properties of undefined"}'
+---
 
 ## 🔐 Environment Variables
 
@@ -165,14 +173,14 @@ http://localhost:3000
 This API is deployed on Render:
 
 ```
-https://your-app-name.onrender.com
+[https://your-app-name.onrender.com](https://error-explainer.onrender.com)
 ```
 
 ---
 ## 🌐 Live API
 
 Base URL:
-https://your-app.onrender.com
+[https://your-app.onrender.com](https://error-explainer.onrender.com)
 
 Endpoint:
 POST /api/explain-error
