@@ -173,14 +173,14 @@ curl -X POST https://your-app.onrender.com/api/explain-error \
 This API is deployed on Render:
 
 ```
-[https://your-app-name.onrender.com](https://error-explainer.onrender.com)
+[https://error-explainer.onrender.com](https://error-explainer.onrender.com)
 ```
 
 ---
 ## 🌐 Live API
 
 Base URL:
-[https://your-app.onrender.com](https://error-explainer.onrender.com)
+[https://error-explainer.onrender.com](https://error-explainer.onrender.com)
 
 Endpoint:
 POST /api/explain-error
