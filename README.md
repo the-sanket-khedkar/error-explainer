@@ -1,4 +1,4 @@
-# 🚀 Error Explainer API
+# 🚀 ai-error-explainer-api
 
 A backend API that converts programming error messages into **structured debugging insights** using AI.
 
@@ -42,6 +42,14 @@ This API solves that by turning raw errors into **clear, actionable insights**.
 * 🔹 Robust error handling and fallback responses
 
 ---
+## 🧩 Challenges Faced
+
+- Handling inconsistent AI responses (markdown → JSON parsing)
+- Debugging API key and model compatibility issues
+- Ensuring reliable structured output from generative AI
+- Preventing multiple response errors in Express (headers already sent)
+
+ --- 
 
 ## 📡 API Endpoint
 
@@ -161,7 +169,15 @@ https://your-app-name.onrender.com
 ```
 
 ---
+## 🌐 Live API
 
+Base URL:
+https://your-app.onrender.com
+
+Endpoint:
+POST /api/explain-error
+
+---
 ## 🧠 Future Improvements
 
 * Detect programming language automatically
